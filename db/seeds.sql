@@ -1,7 +1,6 @@
-Select * FROM burger;
-INSERT INTO products (item_id, burger_name, devoured) 
-VALUES ("1", "Mushroom Burger", "devoured"),
-("2", "Classic Cheeseburger", "devoured" ), 
-("3", "Bacon and Egg Burger", "devoured"),
-("4", "Barbeque Burger", "devoured"),
-("5","Double Bacon Cheeseburger", "devoured")
+INSERT INTO burgers (burger_name, devoured) VALUES ('Classic Cheeseburger', false);
+INSERT INTO burgers (burger_name, devoured) VALUES ('Bacon and Egg Burger', false);
+INSERT INTO burgers (burger_name, devoured) VALUES ('Mushroom and Swiss Burger', false);
+INSERT INTO burgers (burger_name, devoured) VALUES ('Impossible Burger', true);
+INSERT INTO burgers (burger_name, devoured) VALUES ('Double Bacon Cheeseburger', true);
+INSERT INTO burgers (burger_name, devoured) VALUES ('Steak Burger', true);
